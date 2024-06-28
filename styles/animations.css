@@ -46,41 +46,33 @@
     transition: fill 0.3s 0.05s;
   }
   
-  .main-body{
-    fill: transparent;
-    transition: fill 0.3s;
-  }
-  
-  .like-icon:active .main-body, .like-icon:active .core{
+  .like-icon:active .main-body, .like-icon:active .core {
     fill: var(--heart-fill);
     transition: fill 0.3s 0.05s;
   }
   
-  .like-icon.is-liked .core{
+  .like-icon.is-liked .core {
     fill: var(--heart-fill);
     transition: fill 0.3s;
   }
   
-  .like-icon.is-liked .main-body{
+  .like-icon.is-liked .main-body {
     fill: var(--heart-fill);
     transition: fill 0.3s 0.05s;
   }
   
-  .like-icon.is-liked .contour{
+  .like-icon.is-liked .contour {
     fill: transparent;
-  }
-  
-  .like-icon.is-liked .contour{
     fill: var(--heart-fill);
     transition: fill 0.3s 0.1s;
   }
   
-  .like-iconnot:not(.is-liked) .contour{
+  .like-iconnot:not(.is-liked) .contour {
     fill: var(--heart-contour);
     transition: fill 0.1s linear;
   }
   
-  .like-icon.is-liked .heart{
+  .like-icon.is-liked .heart {
     animation: like 0.3s ease-in 0.1s 2 alternate;
     transform-origin: center;
   }
@@ -94,12 +86,12 @@
     }
   }
   
-  .like-icon.is-liked .sparks{
+  .like-icon.is-liked .sparks {
     animation: sparks 0.3s ease-in 0.3s 2 alternate;
     transform-origin: center;
   }
   
-  @keyframes sparks{
+  @keyframes sparks {
     0% {
       opacity: 0;
     }
