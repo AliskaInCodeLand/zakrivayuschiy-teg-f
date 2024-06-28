@@ -62,7 +62,6 @@
   }
   
   .like-icon.is-liked .contour {
-    fill: transparent;
     fill: var(--heart-fill);
     transition: fill 0.3s 0.1s;
   }

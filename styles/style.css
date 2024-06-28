@@ -149,13 +149,13 @@ main {
   border-bottom: 2px solid var(--accent-color);
 }
 
-.content__image{
+.content__image {
   position: relative;
   height: clamp(23.438rem, 16.373rem + 30.141vw, 43.5rem);
   width: var(--width);
 }
 
-.label{
+.label {
   position: absolute;
   top: 27px;
   right: 25px;
@@ -219,7 +219,7 @@ main {
   filter: hue-rotate(255deg);
 }
 
-.content{
+.content {
   padding: 1.47em 25px 22px;
   border-top: 2px solid var(--accent-color);
 }
@@ -236,7 +236,7 @@ main {
   line-height: 21px;
 }
 
-.group__like-button{
+.group__like-button {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -409,7 +409,7 @@ dialog[open]::backdrop {
 }
 
 @media (width < 375px) {
-  .page{
+  .page {
     inline-size: 100%;
   }
 
