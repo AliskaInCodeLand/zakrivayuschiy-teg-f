@@ -187,7 +187,6 @@ main{
 @supports((text-stroke: 0.05em var(--watermark-border)) or (-webkit-text-stroke: 0.05em var(--watermark-border))) {
   .label {
       -webkit-text-stroke: 0.05em var(--watermark-border);
-      text-stroke: 0.05em var(--watermark-border);
       text-shadow: none;
   }
 }
@@ -490,7 +489,6 @@ dialog[open]::backdrop {
   text-transform: uppercase;
   font-family: var(--accent-font);
   line-height: 150%;
-  letter-spacing: 0%;
   font-size: 14px;
   font-weight: 400;
 }
@@ -526,7 +524,7 @@ dialog[open]::backdrop {
     margin-top: 6px;
   }
   
-  
+
 /* 
   .save-button {
     flex-wrap: wrap;
