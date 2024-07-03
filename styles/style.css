@@ -21,7 +21,6 @@
 
 .header {
   margin-block: 100px;
-  padding-block-start: clamp(7.5rem, 6.972rem + 2.254vw, 9rem);
   padding-block-start: clamp(7.5rem, 6.95rem + 2.347vw, 9.063rem);
   display: flex;
   flex-direction: column;
@@ -139,7 +138,6 @@
 .content__image {
   position: relative;
   height: clamp(23.438rem, 16.329rem + 30.329vw, 43.625rem);
-  height: clamp(23.438rem, 16.329rem + 30.329vw, 43.625rem);
 }
 
 .label {
@@ -207,9 +205,6 @@
 }
 
 .content {
-  padding: 28px 25px 24px;
-  padding: 21px 25px 26px;
-  padding: 25px;
   padding: 1.57em;
   border-top: 2px solid var(--accent-color);
 }
@@ -257,7 +252,6 @@
 
 .card__like-button {
   inline-size: 131px;
-  block-size: 38px;
   block-size: 39px;
   display: flex;
   align-items: center;
@@ -398,7 +392,7 @@ dialog[open]::backdrop {
     font-size: 46px;
   }
 
-  .header__subtitle{
+  .header__subtitle {
     padding-block-end: 0;
   }
 
@@ -407,11 +401,11 @@ dialog[open]::backdrop {
     margin-top: 6px;
   }
 
-  .container{
+  .container {
     width: inherit;
   }
   
-  .main{
+  .main {
     gap: 3.09em;
   }
 

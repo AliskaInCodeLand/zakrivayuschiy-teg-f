@@ -22,7 +22,7 @@
     }
 }
 
-.like-icon, .like-icon *{
+.like-icon, .like-icon * {
   transition-timing-function: linear;
 }
 
