@@ -177,7 +177,7 @@
 }
 
 .invert {
-  filter: invert(100%);
+  filter: invert(35%);
 }
 
 .multiple-filter {
@@ -296,21 +296,23 @@
 
 .button:hover::before {
   transform: scaleX(1);
+  color: var(--accent-color);
 }
 
 .button__text {
   position: relative;
   z-index: 2;
+  color: var(--bg-color);
   mix-blend-mode: difference;
   font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 90%;
-  color: var(--accent-color);
   font-weight: 400;
 }
 
-.theme-light .button__text, .theme-light .floppy, .theme-light .dialog-text button {
-  color: var(--bg-color);
+
+.theme-dark .button__text, .theme-dark .floppy, .theme-dark .dialog-text button {
+  color: var(--accent-color);
 }
 
 .save-button {
@@ -324,11 +326,12 @@
 
 .floppy {
   mix-blend-mode: difference;
+  color: var(--bg-color);
   height: 21px;
 }
 
 dialog[open] {
-  top: 10px;
+  top: 0;
   padding: 0;
   width: clamp(21.313rem, 21.048rem + 1.127vw, 22.063rem);
   color: var(--accent-color);
@@ -402,7 +405,7 @@ dialog[open]::backdrop {
   }
 
   .container {
-    width: inherit;
+    width: 100%;
   }
   
   .main {
@@ -415,7 +418,6 @@ dialog[open]::backdrop {
 
   .save-button {
     inline-size: 310px;
-    height: 84px;
     gap: 11px;
     padding: 15px;
     margin-block-end: 100px;
