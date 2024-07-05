@@ -331,12 +331,12 @@
 }
 
 dialog[open] {
-  top: 0;
-  padding: 0;
-  width: clamp(21.313rem, 21.048rem + 1.127vw, 22.063rem);
+  padding: 28px;
+  width: clamp(21.313rem, 20.96rem + 1.502vw, 22.313rem);
   color: var(--accent-color);
   font-weight: var( --font-weigth-text);
   background-color: var(--bg-color);
+
 }
 
 dialog[open]::backdrop {
@@ -345,11 +345,11 @@ dialog[open]::backdrop {
 }
 
 .dialog-text {
-  padding: 30px 40px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 38px;
-  gap: 30px;
+  column-gap: 20px;
+  row-gap: 30px;
 }
 
 .dialog-text > .floppy {
@@ -392,7 +392,7 @@ dialog[open]::backdrop {
   
   .header__title {
     padding-block-end: 0px;
-    font-size: 46px;
+    font-size: clamp(2.625rem, 0.08rem + 12.727vw, 3.063rem);
   }
 
   .header__subtitle {
@@ -418,6 +418,7 @@ dialog[open]::backdrop {
 
   .save-button {
     inline-size: 310px;
+    height: 100%;
     gap: 11px;
     padding: 15px;
     margin-block-end: 100px;
@@ -428,10 +429,8 @@ dialog[open]::backdrop {
   }
 
   dialog[open] {
-    top: 0;
-    width: clamp(343rem, 338.775rem + 18.028vw, 355rem);
+    padding-inline: 38px;
   }
-
 }
 
 
